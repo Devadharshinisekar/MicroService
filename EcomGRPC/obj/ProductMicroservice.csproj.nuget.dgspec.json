@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GreenPath\\SampleMicroservice\\EcomGRPC\\EcomGRPC.csproj": {}
+  },
+  "projects": {
+    "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\EcomApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\EcomApplication.csproj",
+        "projectName": "EcomApplication",
+        "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\EcomApplication.csproj",
+        "packagesPath": "C:\\Users\\devadharshini.sekar\\.nuget\\packages\\",
+        "outputPath": "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\devadharshini.sekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj"
+              },
+              "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj",
+        "projectName": "EcomDomain",
+        "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj",
+        "packagesPath": "C:\\Users\\devadharshini.sekar\\.nuget\\packages\\",
+        "outputPath": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\devadharshini.sekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj",
+        "projectName": "EcomInfrastucture",
+        "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj",
+        "packagesPath": "C:\\Users\\devadharshini.sekar\\.nuget\\packages\\",
+        "outputPath": "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\devadharshini.sekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.*, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GreenPath\\SampleMicroservice\\EcomGRPC\\EcomGRPC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GreenPath\\SampleMicroservice\\EcomGRPC\\EcomGRPC.csproj",
+        "projectName": "EcomGRPC",
+        "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomGRPC\\EcomGRPC.csproj",
+        "packagesPath": "C:\\Users\\devadharshini.sekar\\.nuget\\packages\\",
+        "outputPath": "D:\\GreenPath\\SampleMicroservice\\EcomGRPC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\devadharshini.sekar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\EcomApplication.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomApplication\\EcomApplication.csproj"
+              },
+              "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomDomain\\EcomDomain.csproj"
+              },
+              "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj": {
+                "projectPath": "D:\\GreenPath\\SampleMicroservice\\EcomInfrastucture\\EcomInfrastucture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.29.3, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.57.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
+            "Grpc.Tools": {
+              "target": "Package",
+              "version": "[2.67.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

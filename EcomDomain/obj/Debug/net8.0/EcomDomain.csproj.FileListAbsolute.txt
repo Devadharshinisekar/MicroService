@@ -1,0 +1,12 @@
+D:\GreenPath\SampleMicroservice\EcomDomain\bin\Debug\net8.0\EcomDomain.deps.json
+D:\GreenPath\SampleMicroservice\EcomDomain\bin\Debug\net8.0\EcomDomain.dll
+D:\GreenPath\SampleMicroservice\EcomDomain\bin\Debug\net8.0\EcomDomain.pdb
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.csproj.AssemblyReference.cache
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.AssemblyInfoInputs.cache
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.AssemblyInfo.cs
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.csproj.CoreCompileInputs.cache
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.dll
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\refint\EcomDomain.dll
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\EcomDomain.pdb
+D:\GreenPath\SampleMicroservice\EcomDomain\obj\Debug\net8.0\ref\EcomDomain.dll

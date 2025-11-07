@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Product.cs \
+obj\Debug\net8.0\Protos/ProductGrpc.cs: C:/Users/devadharshini.sekar/.nuget/packages/grpc.tools/2.69.0/build/native/include/google/protobuf/timestamp.proto\
+ Protos/product.proto

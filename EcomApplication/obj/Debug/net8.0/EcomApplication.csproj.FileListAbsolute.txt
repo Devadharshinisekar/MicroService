@@ -1,0 +1,17 @@
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomApplication.deps.json
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomApplication.dll
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomApplication.pdb
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomDomain.dll
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomInfrastucture.dll
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomInfrastucture.pdb
+D:\GreenPath\SampleMicroservice\EcomApplication\bin\Debug\net8.0\EcomDomain.pdb
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.csproj.AssemblyReference.cache
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.AssemblyInfoInputs.cache
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.AssemblyInfo.cs
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.csproj.CoreCompileInputs.cache
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomAppl.3E81B1A3.Up2Date
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.dll
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\refint\EcomApplication.dll
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\EcomApplication.pdb
+D:\GreenPath\SampleMicroservice\EcomApplication\obj\Debug\net8.0\ref\EcomApplication.dll

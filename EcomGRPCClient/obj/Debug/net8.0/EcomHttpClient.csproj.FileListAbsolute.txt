@@ -1,0 +1,5 @@
+D:\GreenPath\SampleMicroservice\EcomGRPCClient\obj\Debug\net8.0\EcomGRPCClient.csproj.AssemblyReference.cache
+D:\GreenPath\SampleMicroservice\EcomGRPCClient\obj\Debug\net8.0\EcomGRPCClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\GreenPath\SampleMicroservice\EcomGRPCClient\obj\Debug\net8.0\EcomGRPCClient.AssemblyInfoInputs.cache
+D:\GreenPath\SampleMicroservice\EcomGRPCClient\obj\Debug\net8.0\EcomGRPCClient.AssemblyInfo.cs
+D:\GreenPath\SampleMicroservice\EcomGRPCClient\obj\Debug\net8.0\EcomGRPCClient.csproj.CoreCompileInputs.cache
