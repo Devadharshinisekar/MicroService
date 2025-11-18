@@ -112,6 +112,33 @@ namespace EcomGRPC.Services
                 Message = $"Product ID {request.ProductId} updated successfully!"
             };
         }
+    //     public override async Task<StockResponse> RestockProduct(RestockRequest request, ServerCallContext context)
+    // {
+    //     try
+    //     {
+    //         var productEntity = new ProductEntities
+    //         {
+    //             ProductId = request.ProductId,
+    //             Quantity = request.Quantity
+    //         };
+    //         RestockProductCommand command= new(productEntity.ProductId,productEntity.Quantity);
+    //         var restock=await _productCommandHandler.RestockProduct(command);
+
+    //         return new StockResponse
+    //         {
+    //             Success = true,
+    //             Message = "Product restocked successfully"
+    //         };
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         return new StockResponse
+    //         {
+    //             Success = false,
+    //             Message = ex.Message
+    //         };
+    //     }
+    // }
 
         #endregion Product Commands
     }

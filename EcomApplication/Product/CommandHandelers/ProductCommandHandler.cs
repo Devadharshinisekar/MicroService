@@ -37,5 +37,30 @@ public class ProductCommandHandler : IProductCommandHandler
         return await _productAggregateRepository.UpdateProduct(updatedProduct);
     }
     
+//     public async Task<string> RestockProduct(RestockProductCommand command)
+// {
+//     var product = await _productRepository.GetProductById(command.ProductId);
 
+//     if (product == null)
+//         throw new Exception("Product not found.");
+
+//     // Domain method
+//     var updatedAggregate = product.Restock(command.Quantity);
+
+//     return await _productAggregateRepository.UpdateProduct(updatedAggregate);
+// }
+
+    public async Task ReduceStock(int productId, int quantity)
+    {
+        var product = await _productRepository.GetProductById(productId);
+        if (product == null)
+            throw new Exception("Product not found");
+
+        if (product.ProductEntity.Quantity < quantity)
+            throw new Exception("Not enough stock");
+
+        product.ProductEntity.Quantity-= quantity;
+
+        await _productAggregateRepository.UpdateProduct(product);
+    }
 }

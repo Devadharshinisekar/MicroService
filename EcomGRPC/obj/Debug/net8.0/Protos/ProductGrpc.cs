@@ -61,6 +61,12 @@ namespace EcomGRPC.Services {
     static readonly grpc::Marshaller<global::EcomGRPC.Services.UpdateProductRequest> __Marshaller_UpdateProductRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EcomGRPC.Services.UpdateProductRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::EcomGRPC.Services.UpdateProductResponse> __Marshaller_UpdateProductResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EcomGRPC.Services.UpdateProductResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::EcomGRPC.Services.ReduceStockRequest> __Marshaller_ReduceStockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EcomGRPC.Services.ReduceStockRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::EcomGRPC.Services.StockResponse> __Marshaller_StockResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EcomGRPC.Services.StockResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::EcomGRPC.Services.RestockRequest> __Marshaller_RestockRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::EcomGRPC.Services.RestockRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::EcomGRPC.Services.GetProductByProductIdRequest, global::EcomGRPC.Services.GetProductByProductIdResponse> __Method_GetProductByProductId = new grpc::Method<global::EcomGRPC.Services.GetProductByProductIdRequest, global::EcomGRPC.Services.GetProductByProductIdResponse>(
@@ -93,6 +99,22 @@ namespace EcomGRPC.Services {
         "UpdateProduct",
         __Marshaller_UpdateProductRequest,
         __Marshaller_UpdateProductResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::EcomGRPC.Services.ReduceStockRequest, global::EcomGRPC.Services.StockResponse> __Method_ReduceStock = new grpc::Method<global::EcomGRPC.Services.ReduceStockRequest, global::EcomGRPC.Services.StockResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ReduceStock",
+        __Marshaller_ReduceStockRequest,
+        __Marshaller_StockResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::EcomGRPC.Services.RestockRequest, global::EcomGRPC.Services.StockResponse> __Method_RestockProduct = new grpc::Method<global::EcomGRPC.Services.RestockRequest, global::EcomGRPC.Services.StockResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "RestockProduct",
+        __Marshaller_RestockRequest,
+        __Marshaller_StockResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -128,6 +150,18 @@ namespace EcomGRPC.Services {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::EcomGRPC.Services.StockResponse> ReduceStock(global::EcomGRPC.Services.ReduceStockRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::EcomGRPC.Services.StockResponse> RestockProduct(global::EcomGRPC.Services.RestockRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -139,7 +173,9 @@ namespace EcomGRPC.Services {
           .AddMethod(__Method_GetProductByProductId, serviceImpl.GetProductByProductId)
           .AddMethod(__Method_GetAllProducts, serviceImpl.GetAllProducts)
           .AddMethod(__Method_AddProduct, serviceImpl.AddProduct)
-          .AddMethod(__Method_UpdateProduct, serviceImpl.UpdateProduct).Build();
+          .AddMethod(__Method_UpdateProduct, serviceImpl.UpdateProduct)
+          .AddMethod(__Method_ReduceStock, serviceImpl.ReduceStock)
+          .AddMethod(__Method_RestockProduct, serviceImpl.RestockProduct).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -153,6 +189,8 @@ namespace EcomGRPC.Services {
       serviceBinder.AddMethod(__Method_GetAllProducts, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EcomGRPC.Services.GetAllProductsRequest, global::EcomGRPC.Services.GetAllProductsResponse>(serviceImpl.GetAllProducts));
       serviceBinder.AddMethod(__Method_AddProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EcomGRPC.Services.AddProductRequest, global::EcomGRPC.Services.AddProductResponse>(serviceImpl.AddProduct));
       serviceBinder.AddMethod(__Method_UpdateProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EcomGRPC.Services.UpdateProductRequest, global::EcomGRPC.Services.UpdateProductResponse>(serviceImpl.UpdateProduct));
+      serviceBinder.AddMethod(__Method_ReduceStock, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EcomGRPC.Services.ReduceStockRequest, global::EcomGRPC.Services.StockResponse>(serviceImpl.ReduceStock));
+      serviceBinder.AddMethod(__Method_RestockProduct, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EcomGRPC.Services.RestockRequest, global::EcomGRPC.Services.StockResponse>(serviceImpl.RestockProduct));
     }
 
   }

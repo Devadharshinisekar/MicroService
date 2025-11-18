@@ -39,5 +39,14 @@ public class ProductAggregateRepository : IProductAggregateRepository
         await _ecomDbContext.SaveChangesAsync();
         return "Updated Successfully";
     }
+    public async Task<string> Restock(Product aggregate)
+{
+    var dataModel = _mapper.Map<ProductDataModel>(aggregate.ProductEntity);
+
+    _ecomDbContext.Products.Update(dataModel);
+    await _ecomDbContext.SaveChangesAsync();
+
+    return "Stock updated successfully";
+}
 
 }

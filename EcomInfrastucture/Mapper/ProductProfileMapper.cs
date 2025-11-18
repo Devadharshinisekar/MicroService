@@ -1,4 +1,5 @@
 using AutoMapper;
+using Ecom.Events;
 using EcomDomain.Aggregate;
 using EcomDomain.Enities;
 using EcomInfrastucture.DataModels;
@@ -14,5 +15,6 @@ public class ProductProfileMapper: Profile
         .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.ProductEntity!.Price))
         .ForMember(dest => dest.Quantity, opt => opt.MapFrom(src => src.ProductEntity!.Quantity))
         .ReverseMap();
+        CreateMap<ProductEntities, ProductCreatedEvent>();
     }
 }

@@ -6,4 +6,5 @@ public interface IProductCommandHandler
 {
     Task<string> AddProduct(CreateProductCommand command);
     Task<string> UpdateProduct(UpdateProductCommand command);
+    // Task<string> RestockProduct(RestockProductCommand command);
 }
